@@ -8,8 +8,5 @@
     "postinstall": "node ./index.js"
   },
   "author": "Marek Vigaš",
-  "license": "ISC",
-  "bin": {
-    "vigipackagetest": "./index.js"
-  }
+  "license": "ISC"
 }

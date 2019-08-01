@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 const fs = require('fs');
-const dir = './tmp';
+let originalCwd = process.cwd();
+const dir = `${originalCwd}/tmp`;
 
 if (!fs.existsSync(dir)){
     fs.mkdirSync(dir);
 }
 
-console.log("Created!");
+console.log(originalCwd);
